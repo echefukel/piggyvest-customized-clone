@@ -52,8 +52,18 @@ nav{
   .fa-building-columns{
     font-size: 32px;
   }
-
+/* togggle classes */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
   
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
   /* Home section design */
   #home{
     min-height: 100vh;
